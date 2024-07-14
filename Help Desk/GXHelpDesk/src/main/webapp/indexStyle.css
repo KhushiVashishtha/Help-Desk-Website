@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+body {
+	/* full body */
+	font-family: 'Arial', sans-serif;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	margin: 0;
+	background-color: #a5a6a2;
+	background-image: url('last.png');
+	background-size: cover;
+	background-position: center center;
+	background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+.links a{
+	margin:0 10px;
+
+	text-decoration: none;
+	color:rgb(0, 0, 160);
+	font-weight: bold;
+	transition: color 0.3 ease;
+	
+}
+.links a:hover{
+	
+	color: mediumblue;
+	text-size : 20px;
+text-transform: uppercase;	
+
+}

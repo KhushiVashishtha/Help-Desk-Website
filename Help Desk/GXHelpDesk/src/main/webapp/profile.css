@@ -1,0 +1,55 @@
+@charset "ISO-8859-1";
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'poppins', sans-serif;
+	
+}
+.container{
+	width: 100%;
+	height: 80vh;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: center;
+	
+	
+}
+
+.profile-box{
+		box-shadow: 3px 3px 3px 3px gray;
+		text-align: center;
+		padding: 40px 90px;
+		color:black;
+			position: relative;
+			
+			width: 40%;
+			height: 70%;
+			margin-top: 10%;
+			
+		
+}
+
+.logo{
+		width: 100px;
+		border-radius: 50%;
+		background-color: white;
+		padding: 4px;
+		margin-bottom: 3%;
+		
+}
+h3{
+	padding-top: 4px;
+}
+.profile-box:hover{
+	border-radius: 20%;
+	background-color:#fff3eb;
+	transition: 2s;
+	
+
+}
+
+

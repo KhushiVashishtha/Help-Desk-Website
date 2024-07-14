@@ -1,0 +1,27 @@
+* {
+	font-family: inherit;
+}
+
+body {
+	background-color: #EEEEEE;
+}
+
+.fb {
+	margin-top: 10%;
+	margin-left: 13%;
+	box-shadow: 4px 4px 4px 4px gray;
+
+	text-align: center;
+	border: solid;
+	border-width: 0px;
+	border-radius: 57px;
+	width: 433px;
+	padding-bottom: 50px;
+	display: inline-block;
+	background-color: white
+}
+
+.fb:hover{
+	background-color:#faf2eb;
+	cursor: pointer;
+}
